@@ -1,0 +1,26 @@
+tabla-19, #tabla-19 th, #tabla-19 td,
+#tabla-20, #tabla-20 th, #tabla-20 td {
+    margin: 0;
+    border: 1px solid black;
+    border-collapse: initial;
+    text-align: initial;
+    color: black;
+    background-color: white;
+    padding: 0;
+    font-family: serif;
+}
+
+#tabla-19 th,
+#tabla-20 th{
+    text-align: center;
+}
+
+caption {
+    caption-side:bottom;
+    text-align: start;
+    margin: 1rem 0;
+}
+
+#tabla-19 tr:nth-child(2){
+    font-weight: bold;
+}
