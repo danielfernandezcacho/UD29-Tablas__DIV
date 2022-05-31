@@ -1,0 +1,41 @@
+table,
+th,
+td {
+    margin: auto;
+    border: 4px solid;
+    border-collapse: collapse;
+    padding: 0.3rem 0.5rem;
+    background-color: #ffffff
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+#table-three {
+    width: 100%;
+    text-align: center;
+}
+.bg-green {
+    background-color: palegreen;
+    color: black;
+}
+.bg-cyan {
+    background-color: cyan;
+}
+.red-text {
+    color: red;
+}
+.bg-magenta {
+    background-color: magenta;
+}
+th {
+    background-color: #3e7c4b;
+    color: white;
+}
+
+table.first tr:nth-child(odd)>td {
+    background-color: var(--secondary-light);
+}

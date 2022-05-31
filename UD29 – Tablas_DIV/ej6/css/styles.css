@@ -1,0 +1,32 @@
+#tabla-16 {
+    border-style: groove;
+    border-collapse: separate;
+}
+
+#tabla-16 td {
+    background-color: #e2e2b5;
+    color: brown;
+    text-align: center;
+}
+
+#tabla-16 th {
+    background-color: #569956;
+    color: rgb(105, 27, 27);
+    font-weight: 100;
+}
+
+#tabla-16 .bg-color1 {
+    background-color: #d6a26e;
+}
+
+#tabla-16 .bg-color2 {
+    background-color: #a8a868;
+}
+
+#tabla-16,
+th,
+td {
+    margin: auto;
+    border: 4px solid black;
+    border-collapse: initial;
+}
